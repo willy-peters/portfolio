@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Willy Peter — Software Developer</title>
+  <meta name="description" content="Portfolio of Willy Peters, software developer. Projects, experience, and skills.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="glow-field" aria-hidden="true">
+  </div>
+
+  <header class="site-header">
+    <a href="#top" class="logo">WP<span>.</span></a>
+    <nav class="nav">
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true">
+        <img src="images/Willy.jpg" alt="An Image of Willy Peter">
+      </div>
+      <p class="hero-eyebrow">Hi there! I'm Willy Peter</p>
+      <h1 class="hero-title">
+        Software<br>
+        Developer<br>
+      </h1>
+      <p class="hero-sub">I design and build interfaces that feel simple to use, even when the problem underneath isn't.
+        Currently open to freelance and full-time development roles.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See the work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+<section id="work" class="section work">
+  <div class="section-head">
+    <h2>Selected Projects</h2>
+    <p>A handful of projects I've worked on.</p>
+  </div>
+
+  <div class="project-list">
+
+    <article class="project">
+      <div class="project-thumb" style="background-image:url('images/encore-thumb.png');">
+        <span>Encore</span>
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <a href="https://encore.pythonanywhere.com/" class="project-link" target="_blank" rel="noopener">View project ↗</a>
+        </div>
+        <p>
+          Affiliate marketers lose revenue when links are disorganized or products are hard to surface. Encore
+          centralizes link management and product discovery in one hosted platform, making it easier to turn traffic
+          into commissions without extra manual tracking.
+        </p>
+        <ul class="project-tags">
+          <li>Django</li>
+          <li>JavaScript</li>
+          <li>Bootstrap5</li>
+          <li>HTML</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-thumb" style="background-image:url('images/SmartPOS\ placeholder.jpg');">
+        <span>SmartPOS API</span>
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <a href="https://github.com/willy-peters/SmartPOS" class="project-link" target="_blank" rel="noopener">View project ↗</a>
+        </div>
+        <p>
+          A POS system that miscounts stock or lets the wrong staff member process a refund costs a business real
+          money. SmartPOS handles inventory and sales accurately while enforcing role-based access, so owners can
+          trust the numbers and control who can do what.
+        </p>
+        <ul class="project-tags">
+          <li>Python</li>
+          <li>Django</li>
+          <li>DRF</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="project-thumb" style="background-image:url('images/Strata\ Placeholder.jpg');">
+        <span>Strata</span>
+      </div>
+      <div class="project-body">
+        <div class="project-top">
+          <a href="https://github.com/dionis36/strata" class="project-link" target="_blank" rel="noopener">View project ↗</a>
+        </div>
+        <p>
+          Legacy PHP systems are expensive to assess before they're expensive to replace. Strata automates that
+          assessment, scanning a monolithic codebase to map its structure so teams can prioritize modernization work
+          in hours instead of weeks of manual review.
+        </p>
+        <ul class="project-tags">
+          <li>PHP</li>
+          <li>Python</li>
+          <li>AST</li>
+          <li>Static Code Analysis</li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p>Where I've worked, and what I did there.</p>
+      </div>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-date">Jul 2024 – Sept 2024</div>
+          <div class="timeline-content">
+            <h3>UI/UX Trainee<span>@ Qsoft Technologies Co LTD</span></h3>
+            <ul>
+              <li>Worked directly with clients to turn vague requirements into clear technical specs and interfaces,
+                closing the gap between what clients asked for and what got built.
+              </li>
+              <li>
+                Designed and prototyped 20+ UI interfaces in Figma as part of a 4-person design team, giving the product
+                a coherent user journey before a single line of code was written.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-date">Jul 2025 – Sept 2025</div>
+          <div class="timeline-content">
+            <h3> Technical Intern <span>@ Infosys IPS (T) LTD</span></h3>
+            <ul>
+              <li>Hardened a Windows Server environment by configuring Group Policy Objects to enforce security
+                baselines, verifying every setting against a compliance checklist.</li>
+              <li>Managed user access and resource permissions across the organization, closing off avenues for
+                unauthorized access.</li>
+              <li>
+                Segmented the network into VLANs across Layer 2 switches to support 5 departments, setting up the
+                infrastructure for cleaner traffic management as the org scales.
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Tools and languages I reach for most.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <div class="tag-list">
+            <span>JavaScript</span><span>React</span><span>Bootstrap5</span><span>CSS3</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend</h3>
+          <div class="tag-list">
+            <span>Django</span><span>PostgreSQL</span><span>REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <div class="tag-list">
+            <span>Git</span><span>Figma</span><span>Docker</span><span>GitHub</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Practice</h3>
+          <div class="tag-list">
+            <span>Accessibility</span><span>Testing</span><span>Performance</span><span>Code review</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="section-head">
+        <h2>About Me</h2>
+        <p>A little more of the story.</p>
+      </div>
+      <div class="about-body">
+        <p>
+          Fun fact: I talk to computers more that I do to humans and somwhow, they understand me better !
+        </p>
+        <p>
+          I am a soon to graduate Computer Science student from the University of Dar es Salaam with a strong interest
+          in backend systems and structured software development.
+        </p>
+        <p>
+          As a software developer mostly focused on backend systems, I strive to improve and gain more experience so
+          that I can thrive in the tech field. Ever since I started learning through projects, it has been a
+          transformative experience pushing me to become a better engineer.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Let's build something.</h2>
+      <p>Open to freelance work and new opportunities</p>
+
+      <div class="contact-links">
+        <a href="mailto:willypeter005@gmail.com" class="contact-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="2" y="4" width="20" height="16" rx="2" />
+            <path d="M2 6l10 7 10-7" />
+          </svg>
+          willypeter005@gmail.com
+        </a>
+
+        <a href="tel:+255756760006" class="contact-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          +255 756 760 006
+        </a>
+      </div>
+
+      <div class="social-row">
+        <a href="https://github.com/willy-peters" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/willy-nguyamu/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Willy Peters.</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
